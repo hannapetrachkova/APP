@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@CrossOrigin(origins = "https://red-plant-04864d603.1.azurestaticapps.net")
+
 public class HomeController {
     
     @GetMapping("/")
