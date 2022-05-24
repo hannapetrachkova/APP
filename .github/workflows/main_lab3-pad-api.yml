@@ -49,5 +49,5 @@ jobs:
         with:
           app-name: 'lab3-pad-api'
           slot-name: 'Production'
-          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_BDEC0602A0BC43E486F07F5CD0A3A374 }}
+          publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_F85CF7BA71F946D9A6B1DD55DFC57596 }}
           package: '*.jar'
