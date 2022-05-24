@@ -12,6 +12,6 @@ public class HomeController {
     
     @GetMapping("/")
     public Task home() {
-        return new Task(1, "Hello, world!");
+        return new Task(1, "Hello from Azure App Service!");
     }
 }
